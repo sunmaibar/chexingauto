@@ -22,16 +22,16 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-gtag`,
-    //   options: {
-    //     trackingIds: ["UA-169599061-1", "G-FWSRMM3HJ6"],
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-JMT1SM0Q4V"],
 
-    //     pluginConfig: {
-    //       head: true,
-    //     },
-    //   },
-    // },
+        pluginConfig: {
+          head: true,
+        },
+      },
+    },
     {
       resolve: `gatsby-source-contentful`,
       options: {

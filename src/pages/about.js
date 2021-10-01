@@ -18,10 +18,7 @@ const About = ({
           <article>
             <h2>誠信買賣，信用良好車商</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sed
-              voluptate libero culpa exercitationem tempore minima expedita
-              debitis quo! Dolorum quia, sapiente ratione quas itaque nam
-              reiciendis architecto dicta illum.
+              成立車星車業館前有七年半汽車銷售及服務經驗，進入不惑之年前決定自行創業，這些年扎實的耕耘及熱忱服務為基底，銷售超過五百台及帶領團隊，為了延續對汽車的熱愛及未來的憧憬，從熟悉的商用車及國產車，現今擴大至進口車和外匯車，並提供各品牌車輛估價、銷售、租賃、貸款及保險一條龍客製化專業服務，車星車業秉持[誠信]與[服務]期待您的蒞臨。
             </p>
             <Link to="/contact" className="btn">
               聯繫車星
