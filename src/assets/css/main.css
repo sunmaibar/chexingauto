@@ -501,7 +501,7 @@ form > *:last-child {
   font-weight: bold;
 }
 .about-page {
-  margin-top: 3rem;
+  margin: 3rem 0;
   display: grid;
   gap: 2rem 4rem;
   padding-bottom: 3rem;
@@ -522,7 +522,7 @@ form > *:last-child {
   }
 }
 .featured-recipes {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 .featured-recipes > h5 {
   text-align: center;

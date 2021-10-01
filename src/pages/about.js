@@ -24,13 +24,16 @@ const About = ({
               聯繫車星
             </Link>
           </article>
-          <StaticImage
-            src="../assets/images/DSC03824.jpg"
-            alt="車星車業"
-            className="about-img"
-            placeholder="blurred"
-          />
+          <article>
+            <StaticImage
+              src="../assets/images/DSC03824.jpg"
+              alt="車星車業"
+              className="about-img"
+              placeholder="blurred"
+            />
+          </article>
         </section>
+
         <section className="featured-recipes">
           <h5>店長強力推薦精選好車</h5>
           <CarsList cars={cars} />
