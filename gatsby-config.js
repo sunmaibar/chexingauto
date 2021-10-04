@@ -15,7 +15,8 @@ module.exports = {
     description:
       "車星車業館專營新車中古車買賣，各式車款，日系商務車，外匯進口車，車輛保險租賃，車輛貸款",
     author: "@jimmy_liao",
-    coverImage: "main-image.png",
+    siteUrl: `https://www.chexingauto.com`,
+    coverImage: "/main-image.png",
   },
   plugins: [
     `gatsby-plugin-styled-components`,
