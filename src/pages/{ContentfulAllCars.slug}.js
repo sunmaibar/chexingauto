@@ -25,7 +25,6 @@ const CarsTemplate = ({ data }) => {
       tags: { tags },
     },
   } = data
-  console.log(images[0])
   const pathToImage = getImage(images[0])
 
   return (
@@ -33,7 +32,7 @@ const CarsTemplate = ({ data }) => {
       <SEO
         title={carsName}
         description={description}
-        image={`https://${images[0].file.url}`}
+        image={`https:${images[0].file.url}`}
       />
       <main className="page">
         <div className="recipe-page">

@@ -9,6 +9,7 @@ const query = graphql`
         title
         description
         coverImage
+        siteUrl
       }
     }
   }
@@ -16,8 +17,9 @@ const query = graphql`
 
 const SEO = ({ title, description, image }) => {
   const { site } = useStaticQuery(query)
+  const { siteUrl, coverImage } = site.siteMetadata
   const metaDescription = description || site.siteMetadata.description
-  const metaImage = image || site.siteMetadata.coverImage
+  const metaImage = image || `${siteUrl}${coverImage}`
   return (
     <Helmet
       htmlAttributes={{ lang: "zh-TW" }}
