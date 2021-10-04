@@ -25,12 +25,16 @@ const CarsTemplate = ({ data }) => {
       tags: { tags },
     },
   } = data
-
+  console.log(images[0])
   const pathToImage = getImage(images[0])
 
   return (
     <Layout>
-      <SEO title={carsName} description={description} image={pathToImage} />
+      <SEO
+        title={carsName}
+        description={description}
+        image={images[0].file.url}
+      />
       <main className="page">
         <div className="recipe-page">
           {/* hero */}
@@ -138,6 +142,9 @@ export const query = graphql`
       }
       images {
         gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
+        file {
+          url
+        }
       }
       description {
         description
