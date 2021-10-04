@@ -25,7 +25,7 @@ const SEO = ({ title, description, image }) => {
       meta={[{ name: `description`, content: metaDescription }]}
     >
       <meta name="keywords" content="車星車業館，新車 中古車 車貸 " />
-      <meta name="image" content={metaImage} />
+      {/* <meta name="image" content={metaImage} /> */}
       <link rel="image_src" href={metaImage} />
     </Helmet>
   )
