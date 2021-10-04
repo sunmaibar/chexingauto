@@ -33,7 +33,7 @@ const CarsTemplate = ({ data }) => {
       <SEO
         title={carsName}
         description={description}
-        image={images[0].file.url}
+        image={`https://${images[0].file.url}`}
       />
       <main className="page">
         <div className="recipe-page">
