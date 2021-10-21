@@ -11,7 +11,7 @@ export default function Home() {
       <main className="page">
         <header className="hero">
           <StaticImage
-            src="../assets/images/lanbo.jpg"
+            src="../assets/images/benz-amg.jpg"
             alt="車星車業館"
             className="hero-img"
             layout="fullWidth"
@@ -20,7 +20,7 @@ export default function Home() {
           <div className="hero-container">
             <div className="hero-text">
               <h1>車星車業館</h1>
-              <h4>新車 中古車 租賃保險 貸款</h4>
+              <h5>新車+二手車+外匯車 企業租賃+融資貸款+保險理賠</h5>
             </div>
           </div>
         </header>
