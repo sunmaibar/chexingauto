@@ -20,7 +20,11 @@ export default function Home() {
           <div className="hero-container">
             <div className="hero-text">
               <h1>車星車業館</h1>
-              <h5>新車+二手車+外匯車 企業租賃+融資貸款+保險理賠</h5>
+              <h5>
+                各廠牌 新車/二手車/外匯車
+                <br />
+                企業租賃/融資貸款/保險理賠
+              </h5>
             </div>
           </div>
         </header>
