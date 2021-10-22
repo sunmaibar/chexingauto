@@ -27,7 +27,7 @@ const Error = () => {
 const Wrapper = styled.section`
   background-color: lightblue;
   padding: 3rem;
-  margin: 0 2rem;
+  margin: 2rem 2rem;
   border-radius: 2rem;
 
   h4 {

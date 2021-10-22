@@ -7,7 +7,7 @@ import Services from "../components/Services"
 export default function Home() {
   return (
     <Layout>
-      <SEO title="首頁" />
+      <SEO title="只賣好車" />
       <main className="page">
         <header className="hero">
           <StaticImage
