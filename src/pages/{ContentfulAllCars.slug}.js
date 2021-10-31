@@ -44,15 +44,11 @@ const CarsTemplate = ({ data }) => {
               className="about-img"
             />
             <article className="recipe-info">
-              <h2 style={{ lineHeight: "0.7" }}>
-                {carsName} <br />
-                <span
-                  style={{ fontSize: "0.9rem", color: "var(--primary-400)" }}
-                >
-                  {carsType} | 排氣量：{cc} cc | {fuel}
-                </span>
-              </h2>
-              <p>{description}</p>
+              <h3 style={{ marginBottom: "0" }}>{carsName}</h3>
+              <span style={{ fontSize: "0.9rem", color: "var(--primary-400)" }}>
+                {carsType} | 排氣量：{cc} cc | {fuel}
+              </span>
+              <p style={{ marginTop: "1rem" }}>{description}</p>
 
               {/* icons */}
               <div className="recipe-icons">
