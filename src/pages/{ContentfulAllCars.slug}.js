@@ -80,7 +80,12 @@ const CarsTemplate = ({ data }) => {
                 }}
               >
                 <Button
-                  style={{ position: "absolute", right: "20px", top: "20px" }}
+                  style={{
+                    position: "absolute",
+                    right: "20px",
+                    top: "20px",
+                    backgroundColor: "#3FBB06",
+                  }}
                 >
                   <a
                     style={{ color: "#fff" }}

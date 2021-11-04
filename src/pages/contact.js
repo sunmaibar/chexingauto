@@ -24,7 +24,16 @@ const Contact = ({
               有任何問題或需求歡迎來電或LINE詢問，或在此留下您的寶貴意見，如需回覆，請您留下正確聯絡方式，謝謝。
             </p>
             <p>負責人：李盛鴻 0937 930 489</p>
-            <Button>點我加Line</Button>
+            <Button
+              style={{ backgroundColor: "#3FBB06", paddingBottom: "0.7rem" }}
+            >
+              <a
+                style={{ color: "#fff" }}
+                href="https://line.me/ti/p/unWmnsUphZ"
+              >
+                加Line聯繫
+              </a>
+            </Button>
           </article>
           <article>
             <form
