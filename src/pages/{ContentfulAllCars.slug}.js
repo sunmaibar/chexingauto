@@ -55,7 +55,10 @@ const CarsTemplate = ({ data }) => {
                 <article>
                   <BsFillAwardFill />
                   <h5>售價</h5>
-                  <p>{price} 萬元</p>
+                  <p>
+                    {price}
+                    {price === "電洽" ? "" : "萬元"}
+                  </p>
                 </article>
                 <article>
                   <BsFillClockFill />

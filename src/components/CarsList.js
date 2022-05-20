@@ -17,7 +17,7 @@ const CarsList = ({ cars = [] }) => {
             />
             <h5>{carsName}</h5>
             <p>
-              出廠：{years} 年 ｜ 售價：{price} 萬
+              出廠：{years} 年 ｜ 售價：{price} {price === "電洽" ? "" : "萬"}
             </p>
           </Link>
         )
