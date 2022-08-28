@@ -26,7 +26,7 @@ const About = ({
           </article>
           <article>
             <StaticImage
-              src="../assets/images/DSC03824.jpg"
+              src="../assets/images/chex-cover.jpg"
               alt="車星車業"
               className="about-img"
               placeholder="blurred"
