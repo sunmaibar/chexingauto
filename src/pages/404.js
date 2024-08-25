@@ -1,13 +1,13 @@
 import React from "react"
 import Layout from "../components/Layout"
-import SEO from "../components/SEO"
+import Seo from "../components/SEO"
 import { Link } from "gatsby"
 import styled from "styled-components"
 
 const Error = () => {
   return (
     <Layout>
-      <SEO title="Error" />
+      <Seo title="Error" />
       <main className="error-page">
         <Wrapper>
           <h2>好車搶手</h2>

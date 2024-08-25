@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link, graphql } from "gatsby"
 import CarsList from "../components/CarsList"
-import SEO from "../components/SEO"
+import Seo from "../components/SEO"
 
 const About = ({
   data: {
@@ -12,7 +12,7 @@ const About = ({
 }) => {
   return (
     <Layout>
-      <SEO title="關於車星" />
+      <Seo title="關於車星" />
       <main className="page">
         <section className="about-page">
           <article>
@@ -26,7 +26,7 @@ const About = ({
           </article>
           <article>
             <StaticImage
-              src="../assets/images/chex-cover.jpg"
+              src="../assets/images/2024outside.jpg"
               alt="車星車業"
               className="about-img"
               placeholder="blurred"

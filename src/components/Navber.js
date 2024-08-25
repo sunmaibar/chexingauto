@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 import { FiAlignJustify } from "react-icons/fi"
-import logo from "../assets/images/S__48349327.jpg"
+import logo from "../assets/images/2024logo.jpg"
 
 const Navber = () => {
   const [show, setShow] = useState(false)

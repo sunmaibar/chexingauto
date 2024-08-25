@@ -7,7 +7,7 @@ import {
   BsFillBarChartFill,
 } from "react-icons/bs"
 import Layout from "../components/Layout"
-import SEO from "../components/SEO"
+import Seo from "../components/SEO"
 import Button from "../components/Button"
 
 const CarsTemplate = ({ data }) => {
@@ -29,7 +29,7 @@ const CarsTemplate = ({ data }) => {
 
   return (
     <Layout>
-      <SEO
+      <Seo
         title={carsName}
         description={description}
         image={`https:${images[0].file.url}`}

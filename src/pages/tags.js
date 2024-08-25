@@ -2,13 +2,13 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql, Link } from "gatsby"
 import setupTags from "../utils/setupTags"
-import SEO from "../components/SEO"
+import Seo from "../components/SEO"
 
 const Tags = ({ data }) => {
   const newTags = setupTags(data.allContentfulAllCars.nodes)
   return (
     <Layout>
-      <SEO title="分類" />
+      <Seo title="分類" />
       <main className="page">
         <section className="tags-page">
           {newTags.map((tag, idx) => {

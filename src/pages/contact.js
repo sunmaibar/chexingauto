@@ -1,8 +1,8 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import CarsList from "../components/CarsList"
-import SEO from "../components/SEO"
+import Seo from "../components/SEO"
 import Button from "../components/Button"
 
 const Contact = ({
@@ -12,7 +12,7 @@ const Contact = ({
 }) => {
   return (
     <Layout>
-      <SEO title="聯繫" />
+      <Seo title="聯繫" />
       <main className="page">
         <section className="contact-page">
           <article className="contact-info">
